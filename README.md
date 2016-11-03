@@ -1,5 +1,9 @@
 # Automated WordPress Plugin Boilerplate
 
+![Step 1](terminal.png?raw=true)
+![Step 2](gui-prompt.png?raw=true)
+![Step 3](gui-done.png?raw=true)
+
 ## Contents
 
 The WordPress Plugin Boilerplate includes the following files:
