@@ -33,6 +33,8 @@ def main():
 				#print(dname + fname)
 				new_file_name = fname.replace("plugin-name", plugin_file_name)
 				os.rename(os.path.join(dname, fname), os.path.join(dname, new_file_name))
+	#Finally, rename the main plugin folder
+	os.rename(os.path.join(os.getcwd(), "plugin-name"), os.path.join(os.getcwd(), plugin_file_name))
 
 	easygui.msgbox("All done, get codin'!")
 
